@@ -1,0 +1,36 @@
+@import url('https://fonts.cdnfonts.com/css/fredoka');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900');
+
+.body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  opacity: 1;
+  padding: 2px;
+  margin: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.head {
+  font-family: "Fredoka", sans-serif;
+}
+.elements {
+	opacity: 1;
+	transition: opacity 0.3s ease;
+}
+
+#title {
+	border-radius: 15px;
+	margin: 15px;
+	font-size: 45px;
+	font-weight: bold;
+	text-align: center;
+}
+
+#lbOutput {
+	color: white;
+	padding: 4px;
+	background-color: white;
+	text-align: center;
+	border-radius: 30px;
+	margin: 15px;
